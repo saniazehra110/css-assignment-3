@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    scroll-behavior: auto;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+     align-items: center;
+  /*  gap: 10em;
+    flex-wrap: wrap;
+    flex-grow: 1;*/
+    padding: 8px;
+font-family: serif;
+}
+.green{
+    color: green;
+}
+.item{
+    display: flex;
+
+    flex-direction: row;
+    gap: 8em;
+    margin-left: 30%;
+}
+.container{
+height: 90vh;
+max-width: 100% !important;
+background-repeat: no-repeat;
+background-size: cover;
+/* padding: 20px;
+/* flex-direction: row;
+/*flex-grow: 1;*/
+background-image: url(https://webdesign-template.netlify.app/images/main.jpg);
+display: flex;
+flex-wrap: wrap;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: block;
+    width: 60%;
+    font-size: 25px;
+    padding: 75px;
+}
+.mobile{
+    display: block;
+    width: 40%;
+}
+.mobile img{
+    width: 100%;
+    position: relative;
+animation: updown 1s infinite alternate;
+}
+
+.gray{
+    color: gray;
+    flex-wrap: wrap;
+    padding-top: 20px;  
+  /*  margin-bottom: 70px;*/
+}
+.per1{
+font-family: sans-serif;
+color: gray;
+font-size: medium;
+padding-bottom: 20px;
+}
+.home{
+ color: rgb(220, 213, 213);
+ padding-top: 15px;
+/* margin-bottom: 80px;*/
+}
+.btn{
+    background-color: transparent !important;
+}
+
+/*
+.btn{
+    height: 55px;
+    width: 200px;
+    background-color: greenyellow;
+    border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   color: rgb(8, 231, 52);
+   border-color: black;
+}*/
+.deb{
+height: 100px;
+width: 90%;
+padding-top: 30px;
+font-size: larger;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pera{
+    display: flex;
+    justify-content: center;
+}
+.ipsum{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+}
+
+.phone{
+    width: 60%;
+    display: block;
+    padding: 80px;
+    position: relative;
+animation: updown 1s infinite alternate;
+}
+
+.fifth{
+    width: 50%;
+    padding-right: 80px;
+padding-top: 50px;
+}
+.amet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.met{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    color: gray;
+    justify-content: space-evenly;
+}
+.met1{
+    width: 50%;
+    padding-left: 30px;
+}
+.met2{
+    width: 40%;
+}
+.met5{
+    width: 100%;
+    position: relative;
+animation: updown 1s infinite alternate;
+}
+@keyframes updown{
+    from{
+top: 0;
+    }
+    to{
+        top: 30px;
+    }
+}
+.facts{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.facts1{
+    height: 60vh;
+    width: 100%;
+    background-image: url(./backgroun1.avif);
+margin-top: 30vh;
+overflow: hidden;
+background-attachment: fixed;
+
+}
+.facts2{
+    color: white;
+display: flex;
+justify-content: center;
+padding: 60px;
+font-size: 24px;
+
+}
+
+.facts3{
+color: rgb(104, 82, 82);
+letter-spacing: 2px;
+display: flex;
+justify-content: center;
+
+}
+
+.adp{
+    display: flex;
+    justify-content: center;
+
+}
+.adp1{
+height: 35vh;
+padding: 30px;
+}
+.ipsum2{
+    height: 110vh;
+    width: 99vw;
+    background-color: black;
+}
+
+
+.ipsum1{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+}
+.fifth1{
+    width: 50%;
+    font-family: sans-serif;
+    padding-right: 80px;
+padding-top: 50px;
+flex-direction: column;
+display: flex;
+gap: 2em;
+color: rgb(151, 134, 134);
+}
+.bold{
+    color: aliceblue;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.per{
+    font-family: sans-serif;
+}
+.cool{
+font-family: sans-serif !important;
+font-size: 5em !important;
+}
+.icon{
+    color: white;
+}
+.cool1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.ullam{
+    height: 35px;
+    width: 99vw;
+    background-image: url(./backgroun1.avif)
+}
+@media(max-width: 1250px){
+/*.header{
+    height: 70px;
+    width: 100%;
+
+}
+.container{
+    flex-direction: column;
+    text-align: center;
+}
+.heading .mobile{
+    width: 100%;
+}
+.mobile img{
+    margin-top: 20px;
+}
+.item{
+    display: none;
+}*/
+}
