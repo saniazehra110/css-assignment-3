@@ -963,22 +963,26 @@ height: 100px;
     color: #4cd137;
 }
 
-
+@media (max-width:1400px){
+    .container1{
+        height: 60vh;
+    }
+}
 
 @media (max-width:1200px){
   .container1{
-    height: auto;
+    height: 70vh;
     padding-bottom: 50px;
   }
 
   .heading{
-    width: 100%;
+    width: 100vw;
     padding: 40px;
     text-align: center;
   }
 
   .mobile{
-    width: 100%;
+    width: 100vw;
     text-align: center;
   }
 
@@ -1032,6 +1036,9 @@ height: 100px;
   .img7{
     padding: 20px;
   }
+  .container1{
+    height: 65vh;
+  }
 
   /* FORM */
   .box{
@@ -1074,6 +1081,9 @@ height: 100px;
   .ipsum2{
     height: auto;
     padding-bottom: 50px;
+  }
+  .tem{
+    width: 80vw;
   }
 
   .ullam{
